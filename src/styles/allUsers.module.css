@@ -1,0 +1,85 @@
+.list {
+  min-height: 100vh;
+  min-width: 800px;
+  text-align: center;
+  margin: 10px 20px 10px 10px;
+  list-style-type: none;
+  padding: 0 20px 0 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.goBack {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+.container {
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 80px 0;
+  position: relative;
+}
+.countFilteredUsers {
+  position: absolute;
+  z-index: 99999;
+  bottom: -70px;
+  left: 50%;
+  transform: translate(-50%, 5px);
+  display: block;
+  min-width: 600px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: underline;
+}
+.link {
+  flex: 0 1 100%;
+  margin: 10px 0;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  padding: 0 15px;
+  text-decoration: none;
+  border: 3px dashed transparent;
+  text-align: start;
+  border: 2px dashed #fff;
+}
+.link:hover {
+  border: 2px dashed red;
+}
+
+.searchInput {
+}
+
+.showPerfomance {
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  transform: translate(-50%, 0);
+}
+.showPerfomance input {
+  position: absolute;
+  top: 3px;
+  transform: translate(-30px, 0);
+  height: 20px;
+  width: 20px;
+}
+.showPerfomance span {
+  margin-left: 5px;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+}
+.deleteOldUsers {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  font-size: 16px;
+  padding: 12px 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+}

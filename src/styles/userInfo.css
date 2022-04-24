@@ -1,0 +1,42 @@
+.userInfo {
+  list-style: none;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  padding: 0;
+}
+.userInfo li {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+.userInfo li:last-child {
+  margin-top: 10px;
+}
+.freezeBtn {
+  margin: 10px 0 0 0;
+  display: inline-block;
+  width: 330px;
+  text-align: center;
+  padding: 12px 0px;
+  background-color: #fff;
+  color: teal;
+  font-weight: 900;
+  font-size: 25px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  transition: all 0.8s ease 0s;
+}
+.freezeBtn.marginTop {
+  margin-top: 30px;
+}
+.freezeBtn:hover {
+  color: #000;
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+}
+.noUser {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
